@@ -23,6 +23,7 @@ def main(page: ft.Page):
         }
         myvar = pd.DataFrame(mydataset)
         txt_number.value = str(myvar)
+        page.update()
 
     page.add(
         ft.Row(
